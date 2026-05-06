@@ -2,8 +2,7 @@ name: Deploy static content to Pages
 
 on:
   push:
-    branches: ['main'] # Деплой будет запускаться при каждом пуше в main
-
+    branches: ['main'] 
 permissions:
   contents: read
   pages: write
@@ -32,7 +31,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist' # Папка, которую создает Vite при сборке
+          path: './dist' 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
