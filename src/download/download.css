@@ -6,7 +6,7 @@ display: flex;
   margin: 40px auto;     
   border-radius: 30px;   
   padding: 80px 80px 0 80px; 
-  background-image: url(public/img-bogdan/download-bcg.jpg);
+  background-image: url(/public/img-bogdan/download-bcg.jpg);
   background-size: cover;
   background-position: center;
   color: #ffffff;
