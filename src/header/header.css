@@ -1,0 +1,57 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10; 
+  background-color: transparent; 
+}
+
+.header-icon {
+  width: 134px;
+  height: 32px;
+  fill: url(./symbol-defs.svg#myGradient);
+}
+
+.header .header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  list-style: none;
+}
+
+.header-nav {
+  display: block;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.header-btn {
+  width: 141px;
+  height: 39px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.08);
+  color: #2c313a;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: 0.16px;
+}
