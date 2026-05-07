@@ -1,0 +1,82 @@
+.hero{
+    padding-top: 121px;
+  background-image: url('/img-bogdan/bcg-hero.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.hero-box{
+    display: flex;
+  flex-direction: column;
+  align-items: center;    
+  text-align: center;     
+}
+
+.hero-title{
+    width: 469.0px;
+height: 120.0px;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 46px;
+font-style: normal;
+font-weight: 400;
+line-height: 59.8px;
+letter-spacing: 0.46px;
+text-align: center;
+}
+
+.hero-text{
+    width: 522.0px;
+height: 66.0px;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0.22px;
+margin-top: 20px;
+}
+
+.hero-btn{
+  width: 172.0px;
+height: 41.0px;
+color: #FFF;
+border-radius: 12px;
+background: #965CFF;
+box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.08);
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 21.6px;
+letter-spacing: 0.18px;
+display: inline-flex;  
+  align-items: center;   
+  justify-content: center; 
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+
+.hero-list{
+  background-color: #000;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px 0;
+
+}
