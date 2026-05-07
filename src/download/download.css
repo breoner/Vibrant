@@ -1,0 +1,70 @@
+.download {
+display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  max-width: 1200px;     
+  margin: 40px auto;     
+  border-radius: 30px;   
+  padding: 80px 80px 0 80px; 
+  background-image: url(/public/img-bogdan/download-bcg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden; 
+}
+
+.download-img-box {
+  flex: 0 0 50%; 
+}
+
+.download-bcg-img {
+  width: 100%;   
+  height: auto;
+  display: block;
+  margin-bottom: 0; 
+  transform: translateX(100px); 
+}
+
+.download-title{
+    width: 383.0px;
+    color: #FFF;
+font-family: Roboto;
+font-size: 46px;
+font-style: normal;
+font-weight: 400;
+line-height: 59.8px;
+letter-spacing: 0.46px;
+
+}
+
+.download-btn{
+      width: 172.0px;
+height: 41.0px;
+color: #FFF;
+border-radius: 12px;
+background: #965CFF;
+box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.08);
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 21.6px;
+letter-spacing: 0.18px;
+display: inline-flex;  
+  align-items: center;   
+  justify-content: center; 
+  gap: 10px;
+
+  margin-bottom: 10px;
+}
+
+.download-text{
+    color: #FFF;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 15.6px;
+}
+
