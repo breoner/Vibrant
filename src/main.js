@@ -1,3 +1,6 @@
+import './reset/reset.css';
+import './reset/container.css';
+
 
 import { initHeader } from './header/header.js';
 import { initHero} from './hero/hero.js';
