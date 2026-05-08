@@ -1,0 +1,167 @@
+.plan-header{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    margin-bottom: 70px;
+}
+
+.plan-title{
+    width: 424.0px;
+    color: #262C3B;
+font-family: Roboto;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: 59.8px;
+letter-spacing: 1.3px;
+}
+
+.plan-text{
+    width: 293.0px;
+    color: #252B3B;
+text-align: center;
+font-family: Roboto;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0.2px;
+
+}
+
+.plan-list{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    padding: 50px 50px 50px 50px;
+    border-radius: 24px;
+
+}
+
+.card-dark{
+    background-image: url(/img-bogdan/card-bcg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.card-dark .card-title,
+.card-dark .card-price,
+.card-dark .card-feature,
+.card-dark .card-description {
+    color: #ffffff;
+}
+
+
+.card-dark .card-span{
+    color: rgba(255, 255, 255, 0.50);
+
+}
+
+.card-title{
+    width: 117.0px;
+    color: #262C3B;
+font-family: Roboto;
+font-size: 29px;
+font-style: normal;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0.3px;
+
+}
+
+.card-description{
+    width: 300.0px;
+    color: #252B3B;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0.18px;
+margin-top: 12px;
+margin-bottom: 22px;
+
+}
+
+.card-price{
+    width: 139.0px;
+    color: #262C3B;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 65px;
+white-space: nowrap;
+
+}
+
+.card-span{
+    width: 46.0px;
+    color: rgba(38, 44, 59, 0.50);
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 31.2px;
+
+}
+
+.card-btn{
+    color: #FFF;
+font-family: Roboto;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 28.9px;
+letter-spacing: 0.17px;
+width: 306.0px;
+border-radius: 12px;
+background-color: #965CFF;
+margin-top: 13px;
+margin-bottom: 24px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-btn:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.card-btn:active {
+    transform: translateY(-1px); 
+}
+
+.card-feature{
+    width: 203.0px;
+    color: #252B3B;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28.9px;
+letter-spacing: 0.17px;
+
+}
+
+.card-feature {
+    position: relative; 
+    padding-left: 30px; 
+    list-style: none;   
+    white-space: nowrap;
+}
+
+.card-feature::before {
+    content: ""; 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); 
+    width: 20px; 
+    height: 20px; 
+    background-image: url('/img-bogdan/check.png'); 
+    background-repeat: no-repeat;
+    background-size: contain;
+}
